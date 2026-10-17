@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-ssr
+*.local
+.firebase
+.env
+.env.*
+*.deb
+Het_Joshi_FlowCV_Resume_*.pdf
+Profile.pdf

@@ -1,0 +1,823 @@
+{
+  "profile": {
+    "name": "Het Joshi",
+    "handle": "@D-ENCODER",
+    "role": "Software Developer & Core Network Automation Engineer",
+    "tagline": "4th-Year Computer Science student at the University of Regina specializing in bridging physical network infrastructure and full-stack software automation with Python, Django, PostgreSQL, Docker, Kubernetes, and NetBox.",
+    "location": "Regina, SK, Canada",
+    "phone": "(639) 554-4038",
+    "availability": "Available for Software & Network Automation Opportunities",
+    "email": "hje486@uregina.ca",
+    "secondaryEmail": "hetcjoshi1684@gmail.com",
+    "resumeUrl": "/Het_Joshi_Resume.pdf",
+    "socials": {
+      "github": "https://github.com/D-ENCODER",
+      "linkedin": "https://www.linkedin.com/in/het-joshi"
+    },
+    "metrics": [
+      { "label": "Experience", "value": "3+ Yrs" },
+      { "label": "Coursera Courses", "value": "19" },
+      { "label": "State Hackathon", "value": "1st Prize" },
+      { "label": "Core Network Co-op", "value": "SaskTel" }
+    ],
+    "skills": [
+      {
+        "category": "Programming Languages",
+        "items": ["Python", "C++", "C", "Java", "SQL", "Dart", "R", "PHP", "Shell Script", "HTML/CSS", "VB.NET", "Racket", "PROLOG"]
+      },
+      {
+        "category": "Frameworks & AI",
+        "items": ["Django", "GraphQL", "Flutter", "OpenCV", "dlib", "NumPy", "Tesseract OCR", "CustomTkinter"]
+      },
+      {
+        "category": "Cloud, DevOps & Data",
+        "items": ["Docker", "Kubernetes (K8s)", "GitLab CI/CD", "PostgreSQL", "NetBox", "GitOps", "Firebase", "Google Cloud", "MySQL", "Tableau", "Cognos"]
+      },
+      {
+        "category": "Networking & Systems",
+        "items": ["CWDM / DWDM", "Fiber Optics Modeling", "WAN", "Linux (Ubuntu, Manjaro, Kali)", "Unix", "macOS", "Windows LAPS"]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "netbox-sasktel",
+      "title": "NetBox Optical Fiber Plugin & CircuitVision Migration",
+      "subtitle": "Physical Network Asset Modeling & CI/CD Infrastructure",
+      "category": "Network & Infrastructure",
+      "featured": true,
+      "description": "Designed a brand-new relational data model and custom NetBox plugin from scratch for SaskTel's IP Core & Transport division, outperforming legacy CircuitVision by accurately modeling granular physical fiber relationships.",
+      "highlights": [
+        "Architected a custom NetBox plugin backed by PostgreSQL that models complex physical hierarchies: fiber cables, bundles, tracts, individual fiber strands, terminations, and peer relationships",
+        "Automated legacy CircuitVision software migration pipelines in Python, replacing rigid legacy schemas with high-visibility relational models",
+        "Containerized and deployed services using Docker, Kubernetes (K8s), and automated GitLab CI/CD pipelines"
+      ],
+      "tech": ["Python", "Django", "PostgreSQL", "NetBox", "Docker", "Kubernetes (K8s)", "GitLab CI/CD", "CWDM/DWDM"],
+      "github": "https://github.com/D-ENCODER",
+      "live": "",
+      "year": "2026",
+      "accent": "from-indigo-500/20 via-purple-500/10 to-transparent"
+    },
+    {
+      "id": "maze-gpu",
+      "title": "GPU & CPU Maze Generation Engine",
+      "subtitle": "High-Performance Procedural DFS Maze Generator",
+      "category": "Algorithms & Systems",
+      "featured": true,
+      "description": "Algorithmic maze generation engine leveraging Depth-First Search (DFS) capable of synthesizing and solving mazes of arbitrary dimensions on both CPU and GPU compute pipelines.",
+      "highlights": [
+        "Implemented scalable Depth-First Search (DFS) maze generation supporting arbitrary grid sizes",
+        "Engineered dual execution backends targeting both CPU threads and GPU acceleration",
+        "Designed modular Python architecture for algorithmic visualization and benchmarking"
+      ],
+      "tech": ["Python", "DFS Algorithm", "GPU Computing", "Data Structures"],
+      "github": "https://github.com/D-ENCODER/MAZE",
+      "live": "",
+      "year": "2024 — Present",
+      "accent": "from-cyan-500/20 via-blue-500/10 to-transparent"
+    },
+    {
+      "id": "coop-projects",
+      "title": "Enterprise Co-op Deployment Suite",
+      "subtitle": "Automated IT Deployment Checklists & Alerting",
+      "category": "Network & Infrastructure",
+      "featured": true,
+      "description": "Suite of internal deployment automation utilities engineered during University of Regina co-op terms to streamline large-scale workstation rollouts and lab operations.",
+      "highlights": [
+        "Built automated deployment checklists and internal deployment alerts/procedures to eliminate rollout bottlenecks",
+        "Created offline text-formatting utilities and system configuration scripts for rapid technician workflows",
+        "Reduced manual setup errors across campus-wide Evergreen hardware rollouts"
+      ],
+      "tech": ["Python", "Tcl", "Shell Script", "Automation", "System Imaging"],
+      "github": "https://github.com/D-ENCODER/Co-op-Projects",
+      "live": "",
+      "year": "2024 — 2025",
+      "accent": "from-emerald-500/20 via-teal-500/10 to-transparent"
+    },
+    {
+      "id": "kongknitec",
+      "title": "Kongknitec — Facial Recognition Attendance",
+      "subtitle": "Contactless Biometric Attendance & Firebase Platform",
+      "category": "AI & Computer Vision",
+      "featured": true,
+      "description": "Led a 5-member engineering team in designing and shipping an automated facial-recognition attendance management system with a Python desktop frontend and real-time Firebase backend.",
+      "highlights": [
+        "Led a team of 5 developers through full lifecycle: dataset capture, face detection, recognition, and cloud sync",
+        "Implemented Haar cascades, dlib facial embeddings, and OpenCV pipelines with NumPy & Pillow",
+        "Integrated real-time Firebase backend and automated Excel attendance reporting via email"
+      ],
+      "tech": ["Python", "OpenCV", "dlib", "NumPy", "Firebase", "CustomTkinter"],
+      "github": "https://github.com/D-ENCODER/KONGKNITEC",
+      "live": "",
+      "year": "2022 — 2023",
+      "accent": "from-amber-500/20 via-orange-500/10 to-transparent"
+    },
+    {
+      "id": "kryptor",
+      "title": "Kryptor — Cryptography & Steganography Library",
+      "subtitle": "Multi-Algorithm Encryption Package for Python",
+      "category": "Security & Python",
+      "featured": false,
+      "description": "Modular Python package providing a unified API to encrypt and decrypt data across 10+ classical and modern cryptographic ciphers as well as image and audio steganography.",
+      "highlights": [
+        "Implemented Blowfish, Hill, Playfair, Vigenère, Vernam, Caesar, Rail Fence, Polybius, and Morse ciphers",
+        "Built Image Steganography (.png) and Audio Steganography (.wav) modules to conceal payloads inside media files",
+        "Packaged with clean object-oriented interfaces and automated code-quality badges"
+      ],
+      "tech": ["Python", "Cryptography", "Image Steganography", "Audio Steganography", "NumPy"],
+      "github": "https://github.com/D-ENCODER/KRYPTOR",
+      "live": "",
+      "year": "2022",
+      "accent": "from-purple-500/20 via-pink-500/10 to-transparent"
+    },
+    {
+      "id": "ocr-python",
+      "title": "Optical Character Recognition (OCR) Engine",
+      "subtitle": "Automated Document Text Extraction in Python",
+      "category": "AI & Computer Vision",
+      "featured": false,
+      "description": "Optical Character Recognition pipeline built with Python, Tesseract OCR, and NumPy to accurately extract and digitize structured text from images and scanned documents.",
+      "highlights": [
+        "Combined image thresholding and NumPy array transformations with Tesseract OCR for noisy image inputs",
+        "Designed reusable Python modules for batch image-to-text conversion"
+      ],
+      "tech": ["Python", "Tesseract OCR", "NumPy", "OpenCV", "Image Processing"],
+      "github": "https://github.com/D-ENCODER/OCR-WITH-PYTHON",
+      "live": "",
+      "year": "2022",
+      "accent": "from-sky-500/20 via-indigo-500/10 to-transparent"
+    },
+    {
+      "id": "cinelog",
+      "title": "CineLog — C++ Media Collection Tracker",
+      "subtitle": "Fast Native Movie & TV Show Watchlist Manager",
+      "category": "Algorithms & Systems",
+      "featured": false,
+      "description": "C++ application engineered to catalog, rate, and track progress across movies and television series.",
+      "highlights": [
+        "Built in modern C++ with structured data persistence and fast search/filtering",
+        "Designed clean CLI/application workflows for managing personal watch history"
+      ],
+      "tech": ["C++", "Data Structures", "OOP", "File I/O"],
+      "github": "https://github.com/D-ENCODER/CineLog",
+      "live": "",
+      "year": "2026",
+      "accent": "from-rose-500/20 via-orange-500/10 to-transparent"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-sasktel",
+      "role": "Tech Assistant — Advancing Technologies (IP Core & Transport)",
+      "company": "SaskTel",
+      "location": "Regina, SK, Canada",
+      "period": "May 2026 — Present",
+      "type": "Co-op & Part-Time",
+      "summary": "Took ownership of critical core network infrastructure tooling, designing a custom NetBox data model and automated CircuitVision migration pipeline for SaskTel's IP Core & Transport division.",
+      "achievements": [
+        "Designed and built a custom NetBox plugin and PostgreSQL data model from scratch that models physical network assets superior to legacy CircuitVision — capturing exact cable-to-strand relationships, fiber bundles, tracts, terminations, and peer links.",
+        "Automated CircuitVision software migration workflows using Python, significantly improving division-wide operational visibility and minimizing manual engineering intervention.",
+        "Architected containerized deployments and automated delivery pipelines using Docker, Kubernetes (K8s), GitLab CI/CD, PostgreSQL, and REST/GraphQL APIs.",
+        "Applied deep telecom networking concepts (CWDM, DWDM, optical transport) and GitOps practices in production."
+      ],
+      "tech": ["Python", "Django", "PostgreSQL", "NetBox", "Docker", "Kubernetes (K8s)", "GitLab CI/CD", "GraphQL", "CWDM/DWDM"]
+    },
+    {
+      "id": "exp-marker-library",
+      "role": "MATH 101 Marker & Student Library Assistant",
+      "company": "University of Regina (Dept. of Math & Dr. John Archer Library)",
+      "location": "Regina, SK, Canada",
+      "period": "Jan 2026 — Present",
+      "type": "Academic & Campus Role",
+      "summary": "Supporting academic assessment in the Department of Mathematics and managing user circulation services at the Dr. John Archer Library.",
+      "achievements": [
+        "Invigilating and grading quizzes, midterms, and final examinations for MATH 101 with high accuracy and turnaround speed.",
+        "Managing library collection organization, loan processing, search/recall requests, and patron account records.",
+        "Delivering front-line technical and research guidance to students, faculty, and campus visitors."
+      ],
+      "tech": ["Mathematics", "Academic Assessment", "Patron Systems", "Customer Service"]
+    },
+    {
+      "id": "exp-uregina-it",
+      "role": "Deployment Services Technician & IT Student Clerk",
+      "company": "University of Regina — Information Services",
+      "location": "Regina, SK, Canada",
+      "period": "Sep 2024 — Dec 2025",
+      "type": "Co-op & Student IT",
+      "summary": "Managed campus-wide hardware deployments, system imaging, lab troubleshooting, and automated deployment tooling across 16 months with University of Regina IT Services.",
+      "achievements": [
+        "Supported the Evergreen Deployment team by imaging, configuring, and rolling out new Windows, macOS, and Linux computer systems across campus.",
+        "Installed, repaired, and re-imaged teaching lab hardware while maintaining the university asset tracking database and decommissioning legacy equipment.",
+        "Engineered internal deployment checklists, alert procedures, and offline text-formatting tools to accelerate technician workflows.",
+        "Assisted faculty and staff with seamless data migrations, software installations, and on-site technical troubleshooting."
+      ],
+      "tech": ["Windows 10/11", "Linux (Ubuntu)", "macOS", "MigWiz / Profwiz", "FootPrints", "Microsoft LAPS", "Shell Scripting"]
+    },
+    {
+      "id": "exp-knocks",
+      "role": "Team Leader",
+      "company": "Knocks Engagement",
+      "location": "Regina, SK, Canada",
+      "period": "Aug 2024 — Dec 2024",
+      "type": "Leadership",
+      "summary": "Led and mentored field engagement teams executing data collection campaigns for diverse client initiatives.",
+      "achievements": [
+        "Led and trained a team of 2–4 representatives conducting structured surveys, ensuring high-accuracy data collection.",
+        "Coordinated team schedules, adapted to dynamic field conditions, and utilized digital tools to track progress and report outcomes.",
+        "Fostered team growth through active coaching, onboarding mentorship, and team-building activities."
+      ],
+      "tech": ["Team Leadership", "Data Collection", "Digital Reporting", "Mentorship"]
+    },
+    {
+      "id": "exp-kongknitec",
+      "role": "Python Developer & Project Team Lead",
+      "company": "Kongknitec",
+      "location": "Ahmedabad, Gujarat, India",
+      "period": "Jun 2022 — May 2024",
+      "type": "Software Development",
+      "summary": "Led development of computer vision applications and Python automation solutions.",
+      "achievements": [
+        "Directed a 5-person development team to build a facial-recognition attendance system using Python, OpenCV, dlib, and Firebase.",
+        "Architected end-to-end pipelines covering dataset capture, biometric verification, cloud database sync, and automated Excel reporting."
+      ],
+      "tech": ["Python", "OpenCV", "dlib", "Firebase", "NumPy", "Git"]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "rec-surya",
+      "quote": "I highly recommend Het based on the outstanding work he delivered during his co-op term with SaskTel - IP Core & Transport. Het took ownership of a critical infrastructure project, developing a brand new data model to manage our physical network assets. By successfully modeling complex network components like fiber bundles, tracts, and peer relationships, he significantly improved our operational visibility. Het is a talented developer with a strong grasp of network engineering concepts, and his ability to jump in and deliver impactful tools is truly impressive. He would be an excellent addition to any technical team.",
+      "author": "Surya Pusapati",
+      "role": "Network Engineering Colleague • SaskTel (IP Core & Transport)",
+      "linkedinUrl": "https://www.linkedin.com/in/surya-pusapati/"
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-uregina",
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of Regina",
+      "period": "Jan 2024 — Apr 2027 (Expected)",
+      "gpa": "4th Year CS Standing",
+      "honors": "Co-op @ SaskTel (IP Core & Transport) & U of R Information Services • MATH 101 Marker",
+      "coursework": [
+        "CS 320: Introduction to Artificial Intelligence",
+        "CS 421: Advanced Artificial Intelligence",
+        "CS 476: Software Development Project (Capstone)",
+        "Data Structures & Algorithms",
+        "Database Management Systems (SQL & PostgreSQL)",
+        "Computer Networks & Core Transport",
+        "Operating Systems (Unix / Linux)"
+      ]
+    },
+    {
+      "id": "edu-gpa",
+      "degree": "Diploma in Computer Engineering",
+      "institution": "Government Polytechnic Ahmedabad",
+      "period": "Aug 2020 — Jul 2023",
+      "gpa": "State Hackathon Winner",
+      "honors": "🏆 Winner — Best Scalable Solution at State-Level Hackathon • Capstone Team Lead (Kongknitec)",
+      "coursework": [
+        "Computer Programming (C, C++, Java, Python)",
+        "Web & Mobile Development (PHP, Flutter, Dart)",
+        "Relational Databases (MySQL, phpMyAdmin)",
+        "Computer Vision & Cryptography Projects",
+        "Operating Systems & Shell Scripting"
+      ]
+    }
+  ],
+  "specializations": [
+    {
+      "id": "spec-google-it",
+      "title": "Google IT Automation with Python Professional Certificate",
+      "provider": "Coursera — Google (6-Course Specialization)",
+      "credentialId": "QKL234BK75AE",
+      "credentialUrl": "https://coursera.org/share/47bd707f40c115ad612ceb514f0c7bfd",
+      "certificatePdfUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/blob/master/Certificates/Coursera%20QKL234BK75AE.pdf",
+      "repoUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course-1-python-crash",
+      "title": "Crash Course on Python",
+      "provider": "Coursera — Google",
+      "date": "ID: H7ABKWJZBNLH",
+      "category": "Google IT Automation",
+      "credentialUrl": "https://www.coursera.org/verify/H7ABKWJZBNLH",
+      "certificatePdfUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/blob/master/Certificates/Coursera%20H7ABKWJZBNLH.pdf",
+      "repoUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/tree/master/Crash%20Course%20on%20Python",
+      "skills": ["Python", "Data Structures", "OOP", "Scripting"],
+      "notes": "Course 1 of 6 in Google IT Automation with Python. Built foundational Python scripts, object-oriented programs, and automation logic."
+    },
+    {
+      "id": "course-2-python-os",
+      "title": "Using Python to Interact with the Operating System",
+      "provider": "Coursera — Google",
+      "date": "ID: C6JV6DDQTCMK",
+      "category": "Google IT Automation",
+      "credentialUrl": "https://www.coursera.org/verify/C6JV6DDQTCMK",
+      "certificatePdfUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/blob/master/Certificates/Coursera%20C6JV6DDQTCMK.pdf",
+      "repoUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/tree/master/Using%20Python%20to%20Interact%20with%20the%20Operating%20System",
+      "skills": ["Linux / Bash", "Regular Expressions", "Unit Testing", "Log Analysis"],
+      "notes": "Course 2 of 6 in Google IT Automation with Python. Automated Linux file systems, processes, regex log parsing, and unit test suites."
+    },
+    {
+      "id": "course-3-git-github",
+      "title": "Introduction to Git and GitHub",
+      "provider": "Coursera — Google",
+      "date": "ID: WXUQFP5YZJW3",
+      "category": "Google IT Automation",
+      "credentialUrl": "https://www.coursera.org/verify/WXUQFP5YZJW3",
+      "certificatePdfUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/blob/master/Certificates/Coursera%20WXUQFP5YZJW3.pdf",
+      "repoUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/tree/master/Introduction%20to%20Git%20and%20GitHub",
+      "skills": ["Git", "GitHub", "Branching & Merging", "Pull Requests"],
+      "notes": "Course 3 of 6 in Google IT Automation with Python. Mastered version control workflows, conflict resolution, and collaborative repositories."
+    },
+    {
+      "id": "course-4-troubleshooting",
+      "title": "Troubleshooting and Debugging Techniques",
+      "provider": "Coursera — Google",
+      "date": "ID: MGUGTXAY2V9Q",
+      "category": "Google IT Automation",
+      "credentialUrl": "https://www.coursera.org/verify/MGUGTXAY2V9Q",
+      "certificatePdfUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/blob/master/Certificates/Coursera%20MGUGTXAY2V9Q.pdf",
+      "repoUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/tree/master/Troubleshooting%20and%20Debugging%20Techniques",
+      "skills": ["Root Cause Analysis", "Performance Profiling", "Debugging", "Concurrency"],
+      "notes": "Course 4 of 6 in Google IT Automation with Python. Diagnosed system bottlenecks, memory issues, and complex software bugs."
+    },
+    {
+      "id": "course-5-config-cloud",
+      "title": "Configuration Management and the Cloud",
+      "provider": "Coursera — Google",
+      "date": "ID: W6LUXUAT2AV8",
+      "category": "Google IT Automation",
+      "credentialUrl": "https://www.coursera.org/verify/W6LUXUAT2AV8",
+      "certificatePdfUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/blob/master/Certificates/Coursera%20W6LUXUAT2AV8.pdf",
+      "repoUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/tree/master/Configuration%20Management%20and%20the%20Cloud",
+      "skills": ["Puppet", "Infrastructure as Code", "Cloud VMs", "Fleet Deployment"],
+      "notes": "Course 5 of 6 in Google IT Automation with Python. Automated fleet configuration with Puppet manifests and cloud VM templates."
+    },
+    {
+      "id": "course-6-automating-tasks",
+      "title": "Automating Real-World Tasks with Python",
+      "provider": "Coursera — Google",
+      "date": "ID: 7B82WL8NQN27",
+      "category": "Google IT Automation",
+      "credentialUrl": "https://www.coursera.org/verify/7B82WL8NQN27",
+      "certificatePdfUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/blob/master/Certificates/Coursera%207B82WL8NQN27.pdf",
+      "repoUrl": "https://github.com/D-ENCODER/GOOGLE-IT-AUTOMATION/tree/master/Automating%20Real-World%20Tasks%20with%20Python",
+      "skills": ["REST APIs", "PIL / Pillow", "ReportLab PDF", "SMTP Automation"],
+      "notes": "Course 6 of 6 Capstone. Engineered end-to-end Python services for image manipulation, web API serialization, and automated PDF/email alerts."
+    },
+    {
+      "id": "course-7-foundations-data",
+      "title": "Foundations: Data, Data, Everywhere",
+      "provider": "Coursera — Google",
+      "date": "ID: SUUFFFTTK8PF",
+      "category": "Google Data Analytics",
+      "credentialUrl": "https://www.coursera.org/verify/SUUFFFTTK8PF",
+      "skills": ["Data Ecosystems", "Analytical Thinking", "SQL Basics", "Data Ethics"],
+      "notes": "Established core foundations in the data analysis lifecycle, analytical questioning, spreadsheets, and SQL querying."
+    },
+    {
+      "id": "course-8-ask-questions",
+      "title": "Ask Questions to Make Data-Driven Decisions",
+      "provider": "Coursera — Google",
+      "date": "ID: 3R9TU9MDRYVT",
+      "category": "Google Data Analytics",
+      "credentialUrl": "https://www.coursera.org/verify/3R9TU9MDRYVT",
+      "skills": ["Structured Thinking", "Stakeholder Communication", "KPIs & Metrics", "Spreadsheets"],
+      "notes": "Formulated SMART analytical questions, structured quantitative problem statements, and translated data insights for stakeholders."
+    },
+    {
+      "id": "course-9-prepare-data",
+      "title": "Prepare Data for Exploration",
+      "provider": "Coursera — Google",
+      "date": "ID: 34HV0QOH71CL",
+      "category": "Google Data Analytics",
+      "credentialUrl": "https://www.coursera.org/verify/34HV0QOH71CL",
+      "skills": ["Data Extraction", "SQL Queries", "Database Schemas", "Data Bias & Governance"],
+      "notes": "Structured, extracted, and organized datasets from relational databases using SQL while ensuring data ethics and unbiased sampling."
+    },
+    {
+      "id": "course-10-process-data",
+      "title": "Process Data from Dirty to Clean",
+      "provider": "Coursera — Google",
+      "date": "ID: G7ZAPS5LIWU1",
+      "category": "Google Data Analytics",
+      "credentialUrl": "https://www.coursera.org/verify/G7ZAPS5LIWU1",
+      "skills": ["Data Cleaning", "SQL Functions", "Data Integrity", "Verification Changelogs"],
+      "notes": "Validated data integrity and built reproducible SQL and spreadsheet data-cleaning pipelines to handle missing, duplicate, or malformed records."
+    },
+    {
+      "id": "course-11-what-is-ds",
+      "title": "What is Data Science?",
+      "provider": "Coursera — IBM",
+      "date": "ID: RWZKQG7PFGRC",
+      "category": "IBM Data Science & Analytics",
+      "credentialUrl": "https://www.coursera.org/verify/RWZKQG7PFGRC",
+      "certificatePdfUrl": "https://github.com/D-ENCODER/IBM-Data-Science-Professional-Certificate/blob/master/Certificates/Coursera%20RWZKQG7PFGRC.pdf",
+      "repoUrl": "https://github.com/D-ENCODER/IBM-Data-Science-Professional-Certificate/tree/master/What%20is%20Data%20Science",
+      "skills": ["Data Mining", "Regression", "Machine Learning Overview", "Report Structuring"],
+      "notes": "Explored machine learning workflows, data mining techniques, regression analysis, and structured data science deliverables."
+    },
+    {
+      "id": "course-12-tools-ds",
+      "title": "Tools for Data Science",
+      "provider": "Coursera — IBM",
+      "date": "ID: 9AZP8Q298365",
+      "category": "IBM Data Science & Analytics",
+      "credentialUrl": "https://www.coursera.org/verify/9AZP8Q298365",
+      "repoUrl": "https://github.com/D-ENCODER/IBM-Data-Science-Professional-Certificate/tree/master/Tools%20for%20Data%20Science",
+      "skills": ["Jupyter Notebook", "JupyterLab", "RStudio", "Git & GitHub", "Watson Studio"],
+      "notes": "Hands-on proficiency with Jupyter Notebooks, JupyterLab, RStudio, Git version control, and open-source data science ecosystems."
+    },
+    {
+      "id": "course-13-ds-methodology",
+      "title": "Data Science Methodology",
+      "provider": "Coursera — IBM",
+      "date": "ID: QPM9ALCWDYHV",
+      "category": "IBM Data Science & Analytics",
+      "credentialUrl": "https://www.coursera.org/verify/QPM9ALCWDYHV",
+      "skills": ["CRISP-DM", "Data Modeling", "Model Evaluation", "Deployment Feedback"],
+      "notes": "Mastered the end-to-end iterative data science methodology from business understanding and data collection to model evaluation and deployment."
+    },
+    {
+      "id": "course-14-python-ds-ai",
+      "title": "Python for Data Science, AI & Development",
+      "provider": "Coursera — IBM",
+      "date": "ID: YY43F3EVBEQT",
+      "category": "IBM Data Science & Analytics",
+      "credentialUrl": "https://coursera.org/verify/YY43F3EVBEQT",
+      "repoUrl": "https://github.com/D-ENCODER/IBM-Data-Science-Professional-Certificate",
+      "skills": ["Python", "Pandas", "NumPy", "REST APIs", "BeautifulSoup"],
+      "notes": "Developed data engineering and analysis workflows in Python using NumPy, Pandas, BeautifulSoup web scraping, and external REST APIs."
+    },
+    {
+      "id": "course-15-intro-data-analytics",
+      "title": "Introduction to Data Analytics",
+      "provider": "Coursera — IBM",
+      "date": "ID: F3STTYMTS38W",
+      "category": "IBM Data Science & Analytics",
+      "credentialUrl": "https://www.coursera.org/verify/F3STTYMTS38W",
+      "skills": ["Data Wrangling", "Descriptive Statistics", "Data Warehousing", "ETL Pipelines"],
+      "notes": "Covered the complete data analytics pipeline including data gathering, wrangling, exploratory analysis, and modern data repositories (SQL/NoSQL/Data Lakes)."
+    },
+    {
+      "id": "course-16-excel-basics",
+      "title": "Excel Basics for Data Analysis",
+      "provider": "Coursera — IBM",
+      "date": "ID: UP95X5J2R8JG",
+      "category": "IBM Data Science & Analytics",
+      "credentialUrl": "https://coursera.org/verify/UP95X5J2R8JG",
+      "skills": ["Data Cleansing", "Pivot Tables", "VLOOKUP / XLOOKUP", "Spreadsheet Modeling"],
+      "notes": "Engineered analytical spreadsheets, interactive pivot tables, and data cleansing pipelines for quantitative reporting."
+    },
+    {
+      "id": "course-17-viz-excel-cognos",
+      "title": "Data Visualization and Dashboards with Excel and Cognos",
+      "provider": "Coursera — IBM",
+      "date": "ID: 27CQR2FGRBRE",
+      "category": "IBM Data Science & Analytics",
+      "credentialUrl": "https://www.coursera.org/verify/27CQR2FGRBRE",
+      "skills": ["IBM Cognos Analytics", "Interactive Dashboards", "Treemaps & Charts", "BI Storytelling"],
+      "notes": "Built interactive Business Intelligence dashboards, pivot charts, and visual analytics stories using Microsoft Excel and IBM Cognos Analytics."
+    },
+    {
+      "id": "course-18-intro-r-ds",
+      "title": "Introduction to R Programming for Data Science",
+      "provider": "Coursera — IBM",
+      "date": "ID: QXCZ725DE3HB",
+      "category": "IBM Data Science & Analytics",
+      "credentialUrl": "https://www.coursera.org/verify/QXCZ725DE3HB",
+      "repoUrl": "https://github.com/D-ENCODER/Sentiment-Analysis-R",
+      "skills": ["R Programming", "RStudio", "Vectors & Data Frames", "Web Scraping in R"],
+      "notes": "Programmed statistical and data manipulation workflows in R using data frames, control structures, file I/O, and HTTP/HTML scraping."
+    },
+    {
+      "id": "course-19-algorithmic-toolbox",
+      "title": "Algorithmic Toolbox",
+      "provider": "Coursera — UC San Diego",
+      "date": "ID: XPJJSGUEGPMK",
+      "category": "Algorithms & CS",
+      "credentialUrl": "https://www.coursera.org/verify/XPJJSGUEGPMK",
+      "repoUrl": "https://github.com/D-ENCODER/Algorithmic-Toolbox",
+      "skills": ["Greedy Algorithms", "Divide & Conquer", "Dynamic Programming", "Big-O Complexity"],
+      "notes": "Designed and analyzed fundamental algorithmic techniques in Python: Fibonacci number theory, GCD/LCM, greedy choice, binary search, and dynamic programming."
+    }
+  ],
+  "leetcode": {
+    "username": "D-ENCODER",
+    "profileUrl": "https://github.com/D-ENCODER/leetcode-challenges",
+    "repoUrl": "https://github.com/D-ENCODER/leetcode-challenges",
+    "lastUpdated": "Live GitHub Sync",
+    "contestRating": "Active",
+    "globalRanking": "Python & C++",
+    "streakDays": 30,
+    "totalSolved": 17,
+    "totalQuestions": 3300,
+    "difficulty": {
+      "easy": { "solved": 4, "total": 830, "beats": "96.4%" },
+      "medium": { "solved": 11, "total": 1740, "beats": "93.8%" },
+      "hard": { "solved": 2, "total": 750, "beats": "91.2%" }
+    },
+    "topicMastery": [
+      { "topic": "Arrays, Hashing & Two Pointers", "solved": 7, "level": "Advanced" },
+      { "topic": "Strings & Sliding Window", "solved": 6, "level": "Advanced" },
+      { "topic": "Depth-First Search (DFS) & Backtracking", "solved": 4, "level": "Advanced" },
+      { "topic": "Dynamic Programming & Memoization", "solved": 4, "level": "Intermediate" },
+      { "topic": "Linked Lists & Math Simulation", "solved": 5, "level": "Advanced" },
+      { "topic": "Binary Search & Divide-and-Conquer", "solved": 3, "level": "Intermediate" }
+    ],
+    "recentUploads": [
+      {
+        "id": 1,
+        "title": "Two Sum",
+        "difficulty": "Easy",
+        "pattern": "Hash Map Lookup",
+        "language": "Python",
+        "timeComplexity": "O(n)",
+        "spaceComplexity": "O(n)",
+        "runtime": "98.4% Faster",
+        "date": "easy/0001-two-sum.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/easy/0001-two-sum.md",
+        "notes": "Single-pass hash table storing seen values and their indices to find target complements in O(1) lookup time.",
+        "codeSnippet": "class Solution:\n    def twoSum(self, nums: list[int], target: int) -> list[int]:\n        seen = {}\n        for i, num in enumerate(nums):\n            complement = target - num\n            if complement in seen:\n                return [seen[complement], i]\n            seen[num] = i"
+      },
+      {
+        "id": 2,
+        "title": "Add Two Numbers",
+        "difficulty": "Medium",
+        "pattern": "Linked List Math",
+        "language": "Python",
+        "timeComplexity": "O(max(m, n))",
+        "spaceComplexity": "O(max(m, n))",
+        "runtime": "97.2% Faster",
+        "date": "medium/0002-add-two-numbers.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0002-add-two-numbers.md",
+        "notes": "Simulated digit-by-digit addition across two reversed linked lists while propagating carry values.",
+        "codeSnippet": "class Solution:\n    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:\n        dummy = cur = ListNode(0)\n        carry = 0\n        while l1 or l2 or carry:\n            v1 = l1.val if l1 else 0\n            v2 = l2.val if l2 else 0\n            carry, val = divmod(v1 + v2 + carry, 10)\n            cur.next = ListNode(val)\n            cur = cur.next\n            l1 = l1.next if l1 else None\n            l2 = l2.next if l2 else None\n        return dummy.next"
+      },
+      {
+        "id": 3,
+        "title": "Longest Substring Without Repeating Characters",
+        "difficulty": "Medium",
+        "pattern": "Sliding Window",
+        "language": "Python",
+        "timeComplexity": "O(n)",
+        "spaceComplexity": "O(min(m, n))",
+        "runtime": "96.8% Faster",
+        "date": "medium/0003-longest-substring-without-repeating-characters.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0003-longest-substring-without-repeating-characters.md",
+        "notes": "Maintained a dynamic sliding window with a character-index map to jump the left pointer past duplicate characters.",
+        "codeSnippet": "class Solution:\n    def lengthOfLongestSubstring(self, s: str) -> int:\n        char_index = {}\n        left = max_len = 0\n        for right, ch in enumerate(s):\n            if ch in char_index and char_index[ch] >= left:\n                left = char_index[ch] + 1\n            char_index[ch] = right\n            max_len = max(max_len, right - left + 1)\n        return max_len"
+      },
+      {
+        "id": 4,
+        "title": "Median of Two Sorted Arrays",
+        "difficulty": "Hard",
+        "pattern": "Binary Search Partition",
+        "language": "Python",
+        "timeComplexity": "O(log(min(m, n)))",
+        "spaceComplexity": "O(1)",
+        "runtime": "97.1% Faster",
+        "date": "hard/0004-median-of-two-sorted-arrays.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/hard/0004-median-of-two-sorted-arrays.md",
+        "notes": "Binary searched the optimal partition on the smaller array such that all left-half elements are less than or equal to right-half elements.",
+        "codeSnippet": "class Solution:\n    def findMedianSortedArrays(self, nums1: list[int], nums2: list[int]) -> float:\n        A, B = nums1, nums2\n        total = len(A) + len(B)\n        half = total // 2\n        if len(B) < len(A):\n            A, B = B, A\n        l, r = 0, len(A) - 1\n        while True:\n            i = (l + r) // 2\n            j = half - i - 2\n            Aleft = A[i] if i >= 0 else float('-inf')\n            Aright = A[i + 1] if (i + 1) < len(A) else float('inf')\n            Bleft = B[j] if j >= 0 else float('-inf')\n            Bright = B[j + 1] if (j + 1) < len(B) else float('inf')\n            if Aleft <= Bright and Bleft <= Aright:\n                if total % 2:\n                    return min(Aright, Bright)\n                return (max(Aleft, Bleft) + min(Aright, Bright)) / 2\n            elif Aleft > Bright:\n                r = i - 1\n            else:\n                l = i + 1"
+      },
+      {
+        "id": 5,
+        "title": "Longest Palindromic Substring",
+        "difficulty": "Medium",
+        "pattern": "Expand Around Center",
+        "language": "Python",
+        "timeComplexity": "O(n²)",
+        "spaceComplexity": "O(1)",
+        "runtime": "95.4% Faster",
+        "date": "medium/0005-longest-palindromic-substring.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0005-longest-palindromic-substring.md",
+        "notes": "Expanded outward from each character (odd & even centers) to find the longest palindrome in O(1) extra space.",
+        "codeSnippet": "class Solution:\n    def longestPalindrome(self, s: str) -> str:\n        res = \"\"\n        for i in range(len(s)):\n            for l, r in ((i, i), (i, i + 1)):\n                while l >= 0 and r < len(s) and s[l] == s[r]:\n                    if (r - l + 1) > len(res):\n                        res = s[l:r + 1]\n                    l -= 1\n                    r += 1\n        return res"
+      },
+      {
+        "id": 6,
+        "title": "Zigzag Conversion",
+        "difficulty": "Medium",
+        "pattern": "Row Direction Simulation",
+        "language": "Python",
+        "timeComplexity": "O(n)",
+        "spaceComplexity": "O(n)",
+        "runtime": "94.7% Faster",
+        "date": "medium/0006-zigzag-conversion.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0006-zigzag-conversion.md",
+        "notes": "Simulated row-by-row character placement using a direction toggle at top and bottom row boundaries.",
+        "codeSnippet": "class Solution:\n    def convert(self, s: str, numRows: int) -> str:\n        if numRows == 1 or numRows >= len(s):\n            return s\n        rows = [\"\"] * numRows\n        cur_row, step = 0, 1\n        for ch in s:\n            rows[cur_row] += ch\n            if cur_row == 0:\n                step = 1\n            elif cur_row == numRows - 1:\n                step = -1\n            cur_row += step\n        return \"\".join(rows)"
+      },
+      {
+        "id": 7,
+        "title": "Reverse Integer",
+        "difficulty": "Medium",
+        "pattern": "Math & 32-Bit Overflow Check",
+        "language": "Python",
+        "timeComplexity": "O(log₁₀(x))",
+        "spaceComplexity": "O(1)",
+        "runtime": "96.8% Faster",
+        "date": "medium/0007-reverse-integer.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0007-reverse-integer.md",
+        "notes": "Extracted digits via modulo arithmetic and checked 32-bit signed integer bounds [-2³¹, 2³¹ - 1].",
+        "codeSnippet": "class Solution:\n    def reverse(self, x: int) -> int:\n        sign = -1 if x < 0 else 1\n        rev = int(str(abs(x))[::-1]) * sign\n        return rev if -(2**31) <= rev <= 2**31 - 1 else 0"
+      },
+      {
+        "id": 8,
+        "title": "String to Integer (atoi)",
+        "difficulty": "Medium",
+        "pattern": "Deterministic State Parsing",
+        "language": "Python",
+        "timeComplexity": "O(n)",
+        "spaceComplexity": "O(1)",
+        "runtime": "95.1% Faster",
+        "date": "medium/0008-string-to-integer-atoi.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0008-string-to-integer-atoi.md",
+        "notes": "Trimmed leading whitespace, parsed optional sign, accumulated digits, and clamped output to 32-bit signed integer limits.",
+        "codeSnippet": "class Solution:\n    def myAtoi(self, s: str) -> int:\n        s = s.lstrip()\n        if not s:\n            return 0\n        sign, i, res = 1, 0, 0\n        if s[0] in \"+-\":\n            sign = -1 if s[0] == \"-\" else 1\n            i += 1\n        while i < len(s) and s[i].isdigit():\n            res = res * 10 + int(s[i])\n            i += 1\n        return max(-(2**31), min(sign * res, 2**31 - 1))"
+      },
+      {
+        "id": 9,
+        "title": "Palindrome Number",
+        "difficulty": "Easy",
+        "pattern": "Half-Integer Reversal",
+        "language": "Python",
+        "timeComplexity": "O(log₁₀(n))",
+        "spaceComplexity": "O(1)",
+        "runtime": "97.3% Faster",
+        "date": "easy/0009-palindrome-number.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/easy/0009-palindrome-number.md",
+        "notes": "Reversed only the second half of the integer digits to avoid string allocation and integer overflow.",
+        "codeSnippet": "class Solution:\n    def isPalindrome(self, x: int) -> bool:\n        if x < 0 or (x % 10 == 0 and x != 0):\n            return False\n        rev = 0\n        while x > rev:\n            rev = rev * 10 + x % 10\n            x //= 10\n        return x == rev or x == rev // 10"
+      },
+      {
+        "id": 10,
+        "title": "Regular Expression Matching",
+        "difficulty": "Hard",
+        "pattern": "2D Dynamic Programming",
+        "language": "Python",
+        "timeComplexity": "O(m · n)",
+        "spaceComplexity": "O(m · n)",
+        "runtime": "94.5% Faster",
+        "date": "hard/0010-regular-expression-matching.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/hard/0010-regular-expression-matching.md",
+        "notes": "Top-down memoized DP handling '.' single-character wildcards and '*' zero-or-more Kleene star transitions.",
+        "codeSnippet": "class Solution:\n    def isMatch(self, s: str, p: str) -> bool:\n        memo = {}\n        def dp(i: int, j: int) -> bool:\n            if (i, j) in memo:\n                return memo[(i, j)]\n            if j == len(p):\n                return i == len(s)\n            first_match = i < len(s) and p[j] in {s[i], '.'}\n            if j + 1 < len(p) and p[j + 1] == '*':\n                ans = dp(i, j + 2) or (first_match and dp(i + 1, j))\n            else:\n                ans = first_match and dp(i + 1, j + 1)\n            memo[(i, j)] = ans\n            return ans\n        return dp(0, 0)"
+      },
+      {
+        "id": 11,
+        "title": "Container With Most Water",
+        "difficulty": "Medium",
+        "pattern": "Two Pointers",
+        "language": "Python",
+        "timeComplexity": "O(n)",
+        "spaceComplexity": "O(1)",
+        "runtime": "98.0% Faster",
+        "date": "medium/0011-container-with-most-water.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0011-container-with-most-water.md",
+        "notes": "Started pointers at both ends and greedily inward-shifted the shorter vertical line to maximize container area.",
+        "codeSnippet": "class Solution:\n    def maxArea(self, height: list[int]) -> int:\n        l, r = 0, len(height) - 1\n        max_water = 0\n        while l < r:\n            width = r - l\n            max_water = max(max_water, width * min(height[l], height[r]))\n            if height[l] < height[r]:\n                l += 1\n            else:\n                r -= 1\n        return max_water"
+      },
+      {
+        "id": 12,
+        "title": "Integer to Roman",
+        "difficulty": "Medium",
+        "pattern": "Greedy Value Symbols",
+        "language": "Python",
+        "timeComplexity": "O(1)",
+        "spaceComplexity": "O(1)",
+        "runtime": "97.5% Faster",
+        "date": "medium/0012-integer-to-roman.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0012-integer-to-roman.md",
+        "notes": "Greedily subtracted descending Roman numeral values (including subtractive pairs like 900 CM, 400 CD) to build the numeral string.",
+        "codeSnippet": "class Solution:\n    def intToRoman(self, num: int) -> str:\n        pairs = [\n            (1000, \"M\"), (900, \"CM\"), (500, \"D\"), (400, \"CD\"),\n            (100, \"C\"), (90, \"XC\"), (50, \"L\"), (40, \"XL\"),\n            (10, \"X\"), (9, \"IX\"), (5, \"V\"), (4, \"IV\"), (1, \"I\")\n        ]\n        res = []\n        for val, sym in pairs:\n            if num == 0:\n                break\n            count, num = divmod(num, val)\n            res.append(sym * count)\n        return \"\".join(res)"
+      },
+      {
+        "id": 13,
+        "title": "Roman to Integer",
+        "difficulty": "Easy",
+        "pattern": "Left-to-Right Pass",
+        "language": "Python",
+        "timeComplexity": "O(n)",
+        "spaceComplexity": "O(1)",
+        "runtime": "96.9% Faster",
+        "date": "easy/0013-roman-to-integer.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/easy/0013-roman-to-integer.md",
+        "notes": "Subtracted symbol value when followed by a larger symbol (e.g. IV, IX), otherwise added value.",
+        "codeSnippet": "class Solution:\n    def romanToInt(self, s: str) -> int:\n        roman = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}\n        total = 0\n        for i in range(len(s)):\n            if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:\n                total -= roman[s[i]]\n            else:\n                total += roman[s[i]]\n        return total"
+      },
+      {
+        "id": 14,
+        "title": "Longest Common Prefix",
+        "difficulty": "Easy",
+        "pattern": "Lexicographical Min/Max Scan",
+        "language": "Python",
+        "timeComplexity": "O(S)",
+        "spaceComplexity": "O(1)",
+        "runtime": "97.2% Faster",
+        "date": "easy/0014-longest-common-prefix.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/easy/0014-longest-common-prefix.md",
+        "notes": "Compared characters across the lexicographically smallest and largest strings in the array.",
+        "codeSnippet": "class Solution:\n    def longestCommonPrefix(self, strs: list[str]) -> str:\n        if not strs:\n            return \"\"\n        s1, s2 = min(strs), max(strs)\n        for i, ch in enumerate(s1):\n            if ch != s2[i]:\n                return s1[:i]\n        return s1"
+      },
+      {
+        "id": 15,
+        "title": "3Sum",
+        "difficulty": "Medium",
+        "pattern": "Sorting + Two Pointers",
+        "language": "Python",
+        "timeComplexity": "O(n²)",
+        "spaceComplexity": "O(1)",
+        "runtime": "95.9% Faster",
+        "date": "medium/0015-3sum.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0015-3sum.md",
+        "notes": "Sorted input array and combined a fixed first element with a deduplicated two-pointer sweep for zero-sum triplets.",
+        "codeSnippet": "class Solution:\n    def threeSum(self, nums: list[int]) -> list[list[int]]:\n        nums.sort()\n        res = []\n        for i, a in enumerate(nums):\n            if i > 0 and a == nums[i - 1]:\n                continue\n            l, r = i + 1, len(nums) - 1\n            while l < r:\n                three_sum = a + nums[l] + nums[r]\n                if three_sum > 0:\n                    r -= 1\n                elif three_sum < 0:\n                    l += 1\n                else:\n                    res.append([a, nums[l], nums[r]])\n                    l += 1\n                    while l < r and nums[l] == nums[l - 1]:\n                        l += 1\n        return res"
+      },
+      {
+        "id": 16,
+        "title": "3Sum Closest",
+        "difficulty": "Medium",
+        "pattern": "Sorting + Two Pointers",
+        "language": "Python",
+        "timeComplexity": "O(n²)",
+        "spaceComplexity": "O(1)",
+        "runtime": "95.2% Faster",
+        "date": "medium/0016-3sum-closest.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0016-3sum-closest.md",
+        "notes": "Sorted array and converged two pointers while tracking the triplet sum with minimum absolute difference from target.",
+        "codeSnippet": "class Solution:\n    def threeSumClosest(self, nums: list[int], target: int) -> int:\n        nums.sort()\n        closest = nums[0] + nums[1] + nums[2]\n        for i in range(len(nums) - 2):\n            l, r = i + 1, len(nums) - 1\n            while l < r:\n                cur = nums[i] + nums[l] + nums[r]\n                if abs(cur - target) < abs(closest - target):\n                    closest = cur\n                if cur < target:\n                    l += 1\n                elif cur > target:\n                    r -= 1\n                else:\n                    return target\n        return closest"
+      },
+      {
+        "id": 17,
+        "title": "Letter Combinations of a Phone Number",
+        "difficulty": "Medium",
+        "pattern": "Backtracking / DFS",
+        "language": "Python",
+        "timeComplexity": "O(4ⁿ · n)",
+        "spaceComplexity": "O(n)",
+        "runtime": "96.6% Faster",
+        "date": "medium/0017-letter-combinations-of-a-phone-number.md",
+        "solutionUrl": "https://github.com/D-ENCODER/leetcode-challenges/blob/main/medium/0017-letter-combinations-of-a-phone-number.md",
+        "notes": "Explored all keypad character combinations recursively via DFS backtracking.",
+        "codeSnippet": "class Solution:\n    def letterCombinations(self, digits: str) -> list[str]:\n        if not digits:\n            return []\n        phone = {\n            \"2\": \"abc\", \"3\": \"def\", \"4\": \"ghi\", \"5\": \"jkl\",\n            \"6\": \"mno\", \"7\": \"pqrs\", \"8\": \"tuv\", \"9\": \"wxyz\"\n        }\n        res = []\n        def backtrack(idx: int, path: str) -> None:\n            if idx == len(digits):\n                res.append(path)\n                return\n            for ch in phone[digits[idx]]:\n                backtrack(idx + 1, path + ch)\n        backtrack(0, \"\")\n        return res"
+      }
+    ]
+  },
+  "hobbies": {
+    "headline": "Tonkatsu Box — Personal Cinema, Anime, Series & Gaming Vault",
+    "subheadline": "Synced directly from my self-hosted Tonkatsu Box Docker instance (127.0.0.1:8080 • trakt-export-dencoder): 612 tracked entries across Movies, Anime & Animation, Live-Action TV Series, Games, and Manga.",
+    "cineLogRepo": "https://github.com/D-ENCODER/CineLog",
+    "mediaStats": [
+      {
+        "label": "Movies Completed",
+        "value": "318",
+        "detail": "802h runtime • +78 Planned",
+        "accent": "indigo"
+      },
+      {
+        "label": "Series & Anime",
+        "value": "148",
+        "detail": "86 Anime/Anim • 62 TV Shows",
+        "accent": "purple"
+      },
+      {
+        "label": "Screen Time Logged",
+        "value": "5,884h",
+        "detail": "10,874 episodes watched",
+        "accent": "emerald"
+      },
+      {
+        "label": "Games & Watchlist",
+        "value": "27",
+        "detail": "15 Playing • 99 Planned Media",
+        "accent": "amber"
+      }
+    ],
+    "otherInterests": [
+      {
+        "title": "Self-Hosted Tonkatsu Box & CineLog",
+        "category": "Media Engineering",
+        "description": "Running a self-hosted Tonkatsu Box Docker container on 127.0.0.1:8080 alongside my C++ CineLog application to catalog 612+ movies, series, anime, and games."
+      },
+      {
+        "title": "GPU Shaders & Procedural Generation",
+        "category": "Creative Coding",
+        "description": "Experimenting with CUDA kernels, cellular automata, and real-time maze/terrain rendering."
+      },
+      {
+        "title": "Self-Hosted Linux & Game Servers",
+        "category": "Homelab & Containers",
+        "description": "Managing Dockerized services (Tonkatsu Box, Minecraft worlds, Django apps) and customizing Linux environments."
+      }
+    ]
+  }
+}
+
